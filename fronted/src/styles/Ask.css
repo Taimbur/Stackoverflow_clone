@@ -1,0 +1,48 @@
+.ask {
+  padding-top: 100px;
+}
+
+.summri {
+  font-family: serif;
+  padding: 10px;
+}
+
+.jumbotron {
+  border: 1px solid;
+  background-color: #e2f0fa;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+.q {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 5px;
+  border: 1px dotted;
+  border-radius: 5px;
+}
+.title input {
+  border: 1px solid khaki;
+  border-radius: 15px;
+  width: 100%;
+}
+.txt-area {
+  border: 1px solid khaki;
+  border-radius: 15px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .q {
+    display: none;
+  }
+  .vs-card {
+    display: none;
+  }
+}

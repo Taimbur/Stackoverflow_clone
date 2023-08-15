@@ -1,0 +1,83 @@
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+  padding-top: 100px;
+}
+.main-2 {
+  margin-left: 160px;
+  padding: 0px 10px;
+  padding-top: 160px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.upper-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-2 .card {
+  font-size: 12px;
+  padding: 10px;
+  font-family: serif;
+  background-color: rgb(237, 233, 199);
+  font-weight: bold;
+  width: 100%;
+  max-width: 20rem;
+}
+.main-2 .card-header {
+  background-color: rgb(230, 224, 172);
+}
+
+.tags {
+  color: khaki;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+  width: 80px;
+}
+
+/* For desktop: */
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .q-1 {
+    width: 100%;
+    max-width: 1000px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+.line-1 {
+  padding: 0px;
+  font-style: italic;
+}
+
+.q-1 {
+  width: 100%;
+  font-weight: bolder;
+  font-family: serif;
+  font-size: 16px;
+  border: 1px dotted wheat;
+  border-radius: 1rem;
+  padding: 10px 32px;
+}
